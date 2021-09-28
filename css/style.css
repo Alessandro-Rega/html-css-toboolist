@@ -53,10 +53,11 @@ main{
     border-bottom: 5px solid #f6f8f9;
 }
 
+/* sezione pulsanti */
 #btn-container{
     width: 70%;
     margin: auto;
-    padding-top: 25px;
+    padding-top: 20px;
 }
 
 .btn{
@@ -65,6 +66,8 @@ main{
     padding: 5px 0;
     width: 100px;
     cursor: pointer;
+    font-weight: 600;
+    font-size: 13px;
 }
 
 #btn-bianco{
@@ -77,3 +80,92 @@ main{
     color: white;
 }
 
+/* section 2 */
+
+#main-body{
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* height: 100px; */
+}
+
+.list{
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.container-task{
+    padding-top: 10px;
+}
+
+.task{
+    font-weight: 600;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* sezione cambio check & noncheck */
+.check::before{
+    content: "\2713";
+    font-size: 12px;
+    border-radius: 50%;
+    border: 1px solid chartreuse;
+    padding: 1px 3px;
+    margin-right: 5px;
+    color: chartreuse;
+}
+
+.notcheck::before{
+    content: "\2717";
+    font-size: 12px;
+    border-radius: 50%;
+    border: 1px solid red;
+    padding: 1px 3px;
+    margin-right: 5px;
+    color: red;
+}
+
+
+/* classe principale */
+.task::after{
+    font-size: 12px;
+    font-weight: 300;
+    margin-left: 5px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+
+/* sezione cambio content per ogni after */
+.editorial::after{
+    content: "Editorial";
+    background-color: rgb(14, 189, 189);
+}
+
+.q1::after{
+    content: "Q1 Goals";
+    background-color: rgb(231, 83, 231);
+}
+
+.recruiting::after{
+    content: "Recruiting";
+    background-color: rgb(42, 202, 149);
+}
+
+.mobile::after{
+    content: "Mobile";
+    background-color: rgb(233, 153, 4);
+}
+
+.website::after{
+    content: "Website";
+    background-color: purple;
+}
+
+.sales::after{
+    content: "Sales";
+    background-color: rgb(131, 204, 22);
+}
