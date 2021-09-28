@@ -35,3 +35,45 @@ header{
     vertical-align: middle;
     font-size: 60px;
 }
+
+/* main */
+/* section 1 */
+
+main{
+    width: 60%;
+    margin: auto;
+}
+
+#main-head{
+    height: 60px;
+    background-color: #fff;
+    margin-top: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 5px solid #f6f8f9;
+}
+
+#btn-container{
+    width: 70%;
+    margin: auto;
+    padding-top: 25px;
+}
+
+.btn{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px 0;
+    width: 100px;
+    cursor: pointer;
+}
+
+#btn-bianco{
+    background-color: #fff;
+    color: gray;
+}
+
+#btn-azzurro{
+    background-color: #47adf1;
+    color: white;
+}
+
