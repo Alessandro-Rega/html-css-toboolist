@@ -1,5 +1,37 @@
+/* font-family: 'Roboto', sans-serif; */
+
+/* formattazione iniziale */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+/* tag principale */
+body{
+    background-color: #f6f8f9;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* ---- header ---- */
+header{
+    background-color: #fff;
+    height: 100px;
+}
+
+#top-head{
+    padding: 10px 30px;
+}
+
+#logo{
+    height: 80px;
+    vertical-align: middle;
+}
+
+#titolo{
+    display: inline-block;
+    color: #051931;
+    vertical-align: middle;
+    font-size: 60px;
 }
